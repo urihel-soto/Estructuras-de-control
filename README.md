@@ -1,5 +1,5 @@
 # Estructuras-de-control
-# Proyecto: Prototipo de Consola - Cooperativa "Ahorro Seguro"
+## Proyecto: Prototipo de Consola - Cooperativa 
 
 ## 1. Integrantes del Equipo
 - **Génesis Altagracia de la Cruz Perozo** | Matrícula: 26-SISN-2-051
