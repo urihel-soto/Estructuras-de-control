@@ -73,16 +73,4 @@ Este proyecto consiste en una aplicación de consola desarrollada en C# para la 
 - **Control de Versiones:** Git y GitHub.
 
 ---
-
-## 6. Capturas del Programa
-
-### Ejercicio 1: Cajero Automático
-- **Caso Exitoso:** *(Insertar imagen de inicio de sesión con PIN correcto, depósitos/retiros válidos y resumen final)*
-- **Caso de Error / Validación:** *(Insertar imagen del bloqueo por 3 intentos fallidos de PIN o de un retiro inválido por saldo insuficiente / monto no múltiplo de 100)*
-
-### Ejercicio 2: Simulador de Préstamo
-- **Caso Exitoso:** *(Insertar imagen con ingreso de datos válidos, cálculo de cuota mensual y la tabla de amortización con totales)*
-- **Caso de Error / Validación:** *(Insertar imagen con reintento al ingresar un monto fuera de rango o categoría no válida)*
-
----
 *(Nota: Las capturas de pantalla están agregadas en la sección correspondiente del informe / repositorio).*
