@@ -1,7 +1,7 @@
 # Estructuras-de-control
 ## Proyecto: Prototipo de Consola - Cooperativa 
 
-## 1. Integrantes del Equipo
+## Integrantes del Equipo
 - **Génesis Altagracia de la Cruz Perozo** | Matrícula: 26-SISN-2-051
 - **Dalbert Yordani Hernández Alcántara** | Matrícula: 26-EISN-2-014
 - **Emmanuel Javier Mercedes** | Matrícula: 26-EISN-2-023
@@ -11,7 +11,7 @@
 
 ---
 
-## 2. Descripción del Proyecto
+## Descripción del Proyecto
 Este proyecto consiste en una aplicación de consola desarrollada en C# para la cooperativa **"Ahorro Seguro"**, orientada a modernizar dos procesos manuales mediante un menú principal interactivo que permite elegir entre dos funcionalidades clave:
 
 1. **Cajero Automático:** Simulación de acceso seguro mediante PIN con validación de hasta 3 intentos, consulta de saldo, depósitos y retiros de efectivo con validación de múltiplos y límites de saldo.
@@ -19,7 +19,7 @@ Este proyecto consiste en una aplicación de consola desarrollada en C# para la 
 
 ---
 
-## 3. Ejercicio 1: Cajero Automático
+## Ejercicio 1: Cajero Automático
 
 ### Datos de Entrada
 - **PIN de seguridad:** Clave de 4 dígitos ingresada por el usuario.
@@ -41,7 +41,7 @@ Este proyecto consiste en una aplicación de consola desarrollada en C# para la 
 
 ---
 
-## 4. Ejercicio 2: Simulador de Préstamo
+## Ejercicio 2: Simulador de Préstamo
 
 ### Datos de Entrada
 - **Monto del préstamo:** Valor entre RD$ 5,000.00 y RD$ 500,000.00.
@@ -66,7 +66,7 @@ Este proyecto consiste en una aplicación de consola desarrollada en C# para la 
 
 ---
 
-## 5. Tecnología Utilizada
+## Tecnología Utilizada
 - **Lenguaje de Programación:** C# (.NET Console Application).
 - **Estructuras de Control:** `if`, `else if`, `else`, `switch`, `for`, `while` y `do-while`.
 - **Manejo y Validación de Datos:** `int.TryParse()` / `double.TryParse()` para captura limpia de consola sin excepciones.
