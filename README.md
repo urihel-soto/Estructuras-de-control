@@ -73,4 +73,4 @@ Este proyecto consiste en una aplicación de consola desarrollada en C# para la 
 - **Control de Versiones:** Git y GitHub.
 
 ---
-*(Nota: Las capturas de pantalla están agregadas en la sección correspondiente del informe / repositorio).*
+*(Nota: Las capturas de pantalla están agregadas en la sección correspondiente del repositorio).*
