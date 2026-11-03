@@ -1,3 +1,44 @@
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        // =====================================================================
+        // PARTE 1 - YOKENDDY
+        // Esta es mi parte del código: declaro las variables, inicio el ciclo
+        // principal del simulador y valido el monto del préstamo.
+        // Sigue Antoni Ramirez.
+        // =====================================================================
+
+        double monto, tasaAnual, tasaMensual;
+        double cuota, interes, abonoCapital, saldo;
+        double totalPagado, totalIntereses;
+        int plazo;
+        string categoria, respuesta;
+
+        do
+        {
+            Console.WriteLine("\n===== SIMULADOR DE PRESTAMO =====");
+
+            // Validación del monto (entre 5,000 y 500,000)
+            do
+            {
+                Console.Write("Ingrese el monto del prestamo (5000 - 500000): ");
+
+                if (!double.TryParse(Console.ReadLine(), out monto))
+                {
+                    monto = 0;
+                }
+
+                if (monto < 5000 || monto > 500000)
+                {
+                    Console.WriteLine("Monto invalido. Intente nuevamente.");
+                }
+
+            } while (monto < 5000 || monto > 500000);
+
+
 // =================================================================
 // PARTE 2 - ANTONI RAMIREZ
 // Esta es mi parte del código: valido el plazo en meses y la
