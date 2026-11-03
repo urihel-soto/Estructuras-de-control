@@ -39,6 +39,12 @@ Este proyecto consiste en una aplicación de consola desarrollada en C# para la 
 - Saldo actual formateado en moneda.
 - Resumen final al salir: cantidad de depósitos realizados, cantidad de retiros realizados y saldo final de la cuenta.
 
+### Capturas de Pantalla - Cajero Automático
+| Validación de PIN / Acceso | Menú y Consulta de Saldo | Operaciones (Depósito / Retiro) |
+| :---: | :---: | :---: |
+| ![PIN](Capturas/Actividad1/captura-1.png) | ![Saldo](Capturas/Actividad1/captura-2.png) | ![Transaccion](Capturas/Actividad1/captura-3.png) |
+| *Pantalla de autenticación y bloqueo por intentos* | *Visualización del menú principal y saldo actual* | *Ejecución de depósitos y retiros con validación* |
+
 ---
 
 ## Ejercicio 2: Simulador de Préstamo
