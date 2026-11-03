@@ -40,10 +40,10 @@ Este proyecto consiste en una aplicación de consola desarrollada en C# para la 
 - Resumen final al salir: cantidad de depósitos realizados, cantidad de retiros realizados y saldo final de la cuenta.
 
 ### Capturas de Pantalla - Cajero Automático
-| Validación de PIN / Acceso | Menú y Consulta de Saldo | Operaciones (Depósito / Retiro) |
+| Bloqueo por Intentos Fallidos | Menú, Consulta y Operaciones | Acceso Exitoso y Resumen Final |
 | :---: | :---: | :---: |
-| ![PIN](Capturas/Actividad1/captura-1.png) | ![Saldo](Capturas/Actividad1/captura-2.png) | ![Transaccion](Capturas/Actividad1/captura-3.png) |
-| *Pantalla de autenticación y bloqueo por intentos* | *Visualización del menú principal y saldo actual* | *Ejecución de depósitos y retiros con validación* |
+| ![Bloqueo PIN](Capturas/Actividad1/captura-1.png) | ![Operaciones](Capturas/Actividad1/captura-2.png) | ![Resumen](Capturas/Actividad1/captura-3.png) |
+| *Validación de seguridad y bloqueo tras agotar 3 intentos de PIN* | *Visualización del menú, consultas de saldo, depósitos y retiros* | *Acceso tras reintentar, salida del sistema y resumen de cuenta* |
 
 ---
 
@@ -77,6 +77,3 @@ Este proyecto consiste en una aplicación de consola desarrollada en C# para la 
 - **Estructuras de Control:** `if`, `else if`, `else`, `switch`, `for`, `while` y `do-while`.
 - **Manejo y Validación de Datos:** `int.TryParse()` / `double.TryParse()` para captura limpia de consola sin excepciones.
 - **Control de Versiones:** Git y GitHub.
-
----
-*(Nota: Las capturas de pantalla están agregadas en la sección correspondiente del repositorio).*
