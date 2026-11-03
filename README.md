@@ -74,7 +74,7 @@ Este proyecto consiste en una aplicación de consola desarrollada en C# para la 
 | Simulación Categoría C | Simulación Categoría A | Simulación Categoría B |
 | :---: | :---: | :---: |
 | ![Cat C](Capturas/Actividad2/captura-1.png) | ![Cat A](Capturas/Actividad2/captura-2.png) | ![Cat B](Capturas/Actividad2/captura-3.png) |
-| *Préstamo de RD$ 50,000 a 45 meses (Tasa 18% - Cat. C)*[cite: 7] | *Préstamo de RD$ 400,000 a 45 meses (Tasa 12% - Cat. A)*[cite: 6] | *Préstamo de RD$ 20,000 a 34 meses (Tasa 15% - Cat. B)*[cite: 5] |
+| *Préstamo de RD$ 50,000 a 45 meses (Tasa 18% - Cat. C)* | *Préstamo de RD$ 400,000 a 45 meses (Tasa 12% - Cat. A)* | *Préstamo de RD$ 20,000 a 34 meses (Tasa 15% - Cat. B)* |
 
 ---
 
