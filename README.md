@@ -42,7 +42,7 @@ Este proyecto consiste en una aplicación de consola desarrollada en C# para la 
 ### Capturas de Pantalla - Cajero Automático
 | Bloqueo por Intentos Fallidos | Menú, Consulta y Operaciones | Acceso Exitoso y Resumen Final |
 | :---: | :---: | :---: |
-| ![Bloqueo PIN](Capturas/Actividad1/captura-3.png) | ![Operaciones](Capturas/Actividad1/captura-2.png) | ![Resumen](Capturas/Actividad1/captura-1.png) |
+| ![Bloqueo PIN](Capturas/Actividad1/captura-3.png) | ![Operaciones](Capturas/Actividad1/captura-1.png) | ![Resumen](Capturas/Actividad1/captura-2.png) |
 | *Validación de seguridad y bloqueo tras agotar 3 intentos de PIN* | *Visualización del menú, consultas de saldo, depósitos y retiros* | *Acceso tras reintentar, salida del sistema y resumen de cuenta* |
 
 ---
