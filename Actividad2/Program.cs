@@ -138,3 +138,27 @@ do
          saldo.ToString("N2")
      );
  }            
+            // =================================================================
+            // PARTE 4 - EMMANUEL
+            // Esta es mi parte del código: muestro el resumen del préstamo,
+            // pregunto si se desea simular otro y cierro el programa.
+            // Fin del código.
+            // =================================================================
+
+            Console.WriteLine("\n===== RESUMEN DEL PRESTAMO =====");
+            Console.WriteLine("Monto solicitado: RD$ " + monto.ToString("N2"));
+            Console.WriteLine("Categoria: " + categoria);
+            Console.WriteLine("Tasa anual: " + (tasaAnual * 100) + "%");
+            Console.WriteLine("Plazo: " + plazo + " meses");
+            Console.WriteLine("Cuota mensual aproximada: RD$ " + (monto * (tasaMensual * Math.Pow(1 + tasaMensual, plazo)) / (Math.Pow(1 + tasaMensual, plazo) - 1)).ToString("N2"));
+            Console.WriteLine("Total pagado: RD$ " + totalPagado.ToString("N2"));
+            Console.WriteLine("Total de intereses: RD$ " + totalIntereses.ToString("N2"));
+
+            Console.Write("\nDesea simular otro prestamo? (S/N): ");
+            respuesta = Console.ReadLine().ToUpper();
+
+        } while (respuesta == "S");
+
+        Console.WriteLine("\nGracias por utilizar el simulador de prestamos.");
+    }
+}
