@@ -1,4 +1,4 @@
-# Estructuras de-control
+# Estructuras de control
 ## Proyecto: Prototipo de Consola - Cooperativa 
 
 ## Integrantes del Equipo
