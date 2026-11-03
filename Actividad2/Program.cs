@@ -75,3 +75,66 @@ do
     }
 
 } while (categoria != "A" && categoria != "B" && categoria != "C");
+
+
+// =================================================================
+ // PARTE 3 - DALBERT HERNANDEZ
+ // Esta es mi parte del código: asigno la tasa según la categoría,
+ // calculo la cuota mensual y genero la tabla de amortización.
+ // Sigue Emmanuel.
+ // =================================================================
+
+ // Tasa anual según la categoría
+ switch (categoria)
+ {
+     case "A":
+         tasaAnual = 0.12;
+         break;
+
+     case "B":
+         tasaAnual = 0.15;
+         break;
+
+     default:
+         tasaAnual = 0.18;
+         break;
+ }
+
+ tasaMensual = tasaAnual / 12;
+
+ // Fórmula de la cuota fija mensual
+ cuota = monto * (tasaMensual * Math.Pow(1 + tasaMensual, plazo))
+         / (Math.Pow(1 + tasaMensual, plazo) - 1);
+
+ saldo = monto;
+ totalPagado = 0;
+ totalIntereses = 0;
+
+ Console.WriteLine("\n===== TABLA DE AMORTIZACION =====");
+ Console.WriteLine("Mes\tCuota\t\tInteres\t\tCapital\t\tSaldo");
+
+ for (int mes = 1; mes <= plazo; mes++)
+ {
+     interes = saldo * tasaMensual;
+     abonoCapital = cuota - interes;
+     saldo -= abonoCapital;
+
+     // Ajuste en la última cuota para que el saldo quede en 0
+     if (mes == plazo)
+     {
+         abonoCapital += saldo;
+         cuota = interes + abonoCapital;
+         saldo = 0;
+     }
+
+     totalPagado += cuota;
+     totalIntereses += interes;
+
+     Console.WriteLine(
+         mes + "\t" +
+         cuota.ToString("N2") + "\t\t" +
+         interes.ToString("N2") + "\t\t" +
+         abonoCapital.ToString("N2") + "\t\t" +
+         saldo.ToString("N2")
+     );
+ }            
