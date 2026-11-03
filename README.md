@@ -71,10 +71,10 @@ Este proyecto consiste en una aplicación de consola desarrollada en C# para la 
 - Resumen acumulado de totales pagados (Total amortizado a capital e Intereses totales abonados).
 
 ### Capturas de Pantalla - Simulador de Préstamo
-| Simulación Categoría C | Simulación Categoría A | Simulación Categoría B |
+| Simulación Categoría A | Simulación Categoría B | Simulación Categoría C |
 | :---: | :---: | :---: |
-| ![Cat C](Capturas/Actividad2/captura-3.png) | ![Cat A](Capturas/Actividad2/captura-2.png) | ![Cat B](Capturas/Actividad2/captura-1.png) |
-| *Préstamo de RD$ 50,000 a 45 meses (Tasa 18% - Cat. C)* | *Préstamo de RD$ 400,000 a 45 meses (Tasa 12% - Cat. A)* | *Préstamo de RD$ 20,000 a 34 meses (Tasa 15% - Cat. B)* |
+| ![Cat A](Capturas/Actividad2/captura-2.png) | ![Cat B](Capturas/Actividad2/captura-3.png) | ![Cat C](Capturas/Actividad2/captura-1.png) |
+| *Préstamo de RD$ 400,000 a 45 meses (Tasa 12% - Cat. A)*[cite: 6] | *Préstamo de RD$ 20,000 a 34 meses (Tasa 15% - Cat. B)*[cite: 5] | *Préstamo de RD$ 50,000 a 45 meses (Tasa 18% - Cat. C)*[cite: 7] |
 
 ---
 
